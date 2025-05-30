@@ -1,0 +1,18 @@
+@keyframes colorCycle {
+  0%   { background-color: #22c55e; } /* green-500 */
+  25%  { background-color: #ef4444; } /* red-500 */
+  50%  { background-color: #eab308; } /* yellow-500 */
+  75%  { background-color: #3b82f6; } /* blue-500 */
+  100% { background-color: #22c55e; } /* back to green */
+}
+
+.animate-color-cycle {
+  animation: colorCycle 8s linear infinite;
+  color: white;
+}
+
+
+
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
